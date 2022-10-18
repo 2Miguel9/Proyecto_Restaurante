@@ -1,4 +1,5 @@
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +8,7 @@
     <title>Restaurante</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="reservar.css">
+    <link rel="stylesheet" href="css/reservar.css">
 </head>
 <body>
 
@@ -27,13 +28,10 @@
                         <a href="menu.html" class="nav-link ">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a href="reservar.html" class="nav-link ">Reservaciones</a>
+                        <a href="reserva.html" class="nav-link ">Reservaciones</a>
                     </li>
                     <li class="nav-item">
-                        <a href="registro.html" class="nav-link ">Registrate</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link ">Tienda</a>
+                        <a href="registro.html" class="nav-link ">Registro</a>
                     </li>
                     <li class="nav-item">
                         <a href="contacto.html" class="nav-link ">Contacto</a>
@@ -96,7 +94,7 @@
             </select>
         </div>
           <div class="submit">
-            <input type="submit" value="Agendar Tu Reserva" id="form_button" />
+            <button type="button" id="form_button" onclick="agendar()">Agendar Tu Reserva</button>
           </div>
         </form><!-- // End form -->
       </div><!-- // End #container -->
@@ -173,3 +171,6 @@
         })
 
     </script>
+        <script src="reserva.js"></script>
+        <script src="jsPDF-1.3.2/dist/jspdf.min.js"></script>
+    </body>
