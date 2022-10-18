@@ -16,7 +16,7 @@
     <div class="d-flex">
         <div id="sidebar-container" class="bg-primary">
             <div class="logo">
-                <h4 class="text-light font-weigth-bold">Animalandia</h4>
+                <h4 class="text-light font-weigth-bold">Restaurante</h4>
             </div>
             <div class="menu">
                 <a href="#" class="d-block text-light p-3"><i class = "icon ion-md-apps  mr-2 lead"></i>Tablero</a>
@@ -45,7 +45,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">Mi perfil</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Cerrar sesion</a>
+                  <a class="dropdown-item" href="index.html">Cerrar sesion</a>
                 </div>
               </li>
             </ul>
@@ -82,7 +82,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 d-flex stat my-3">
                       <div class="mx-auto">
-                      <h6 class="text-muted">Baños</h6>
+                      <h6 class="text-muted">Reservaciones del dia </h6>
                      <h3 class="font-weigth-bold">20</h3>
                      <h6 class="text-success"><i class="icon ion-md-arrow-dropup-circle"></i>20.50%</h6>
                       </div>
@@ -113,7 +113,7 @@
                 <div class="col-lg-8 my-3">
                   <div class="card rounded-0">
                     <div class="card-header bg-light">
-                       <h6 class="font-weigth-bold mb-0">Numero de citas agendadas</h6>
+                       <h6 class="font-weigth-bold mb-0">Numero de reservaciones agendadas</h6>
                     </div>
                      <div class="card-body">
                       <canvas id="myChart"></canvas>
@@ -124,7 +124,7 @@
                 <div class="col-lg-4 my-3">
                    <div class="card rounded-0">
                     <div class="card-header bg-light">
-                      <h6 class="font-weigth-bold mb-0">Tipo de citas agendadas</h6>
+                      <h6 class="font-weigth-bold mb-0">Reservaciones agendadas en la semana</h6>
                     </div>
                     <div class="card-body pt-2">
                       <div class="d-flex border-bottom py-2">
@@ -132,8 +132,8 @@
                           <h2 class="align-self-center mb-0"><i class="icon ion-md-calendar"></i></h2>
                         </div>
                         <div class="align-self-center">
-                          <h6 class="d-inline-block mb-0">Citas generales</h6><span class="badge badge-success ml-2">10 Generales</span>
-                          <small class="d-block text-muted">En la ultima semana</small>
+                          <h6 class="d-inline-block mb-0">Reservacion</h6><span class="badge badge-success ml-2">10 en la mañana</span>
+                          <small class="d-block text-muted">En la semana</small>
                         </div>
                       </div>
                       <div class="d-flex border-bottom py-2">
@@ -141,8 +141,8 @@
                           <h2 class="align-self-center mb-0"><i class="icon ion-md-calendar"></i></h2>
                         </div>
                         <div class="align-self-center">
-                          <h6 class="d-inline-block mb-0">Vacunacion</h6><span class="badge badge-success ml-2">25 Vacunaciones</span>
-                          <small class="d-block text-muted">En la ultima semana</small>
+                          <h6 class="d-inline-block mb-0">Reservaciones agendadas en la semana</h6><span class="badge badge-success ml-2">15 en la tarde</span>
+                          <small class="d-block text-muted">En la semana</small>
                         </div>
                       </div>
                       <div class="d-flex border-bottom py-2 mb-3">
@@ -150,8 +150,8 @@
                           <h2 class="align-self-center mb-0"><i class="icon ion-md-calendar"></i></h2>
                         </div>
                         <div class="align-self-center">
-                          <h6 class="d-inline-block mb-0">Baños</h6><span class="badge badge-success ml-2">45 Baños</span>
-                          <small class="d-block text-muted">En la ultima semana</small>
+                          <h6 class="d-inline-block mb-0">Reservacion</h6><span class="badge badge-success ml-2">20 en la noche</span>
+                          <small class="d-block text-muted">En la semana</small>
                         </div>
                       </div>
                        <button class="btn btn-primary w-100">Ver todas</button>
@@ -187,7 +187,7 @@
        data:{
         labels:['Feb 2022', 'Mar 2022', 'Abri 2022', 'May 2022'],
         datasets:[{
-          label: 'Citas agendadas en los ultimos meses',
+          label: 'Rservaciones agendadas en los ultimos meses',
           backgroundColor: [
             '#12C9E5',
             '#12C9E5',
